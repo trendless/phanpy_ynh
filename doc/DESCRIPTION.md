@@ -1,7 +1,5 @@
 This Phanpy YunoHost App is packaged directly from upstream Release package.
 
-![image from upstream repo](https://github.com/cheeaun/phanpy/raw/main/readme-assets/fancy-screenshot.jpg)
-
 ## Features
 
     👪 Multiple accounts

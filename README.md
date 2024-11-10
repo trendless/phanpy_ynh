@@ -12,10 +12,8 @@ you can restrict access to this app to `all_users` in your server (they will nee
 
 This app runs in the visitor's browser, no data is managed in/from your server.
 
-## Install
+## Testing version
 
-`sudo yunohost app install https://github.com/xmgz/phanpy_ynh/tree/main --debug`
+`sudo yunohost app install https://github.com/xmgz/phanpy_ynh/tree/testing --debug`
 
-### upgrade
-
-`sudo yunohost app upgrade -u https://github.com/xmgz/phanpy_ynh/tree/main --debug`
+`sudo yunohost app upgrade -u https://github.com/xmgz/phanpy_ynh/tree/testing --debug`

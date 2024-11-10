@@ -8,7 +8,7 @@ name = "Phanpy"
 description.en = "A minimalistic opinionated Fediverse ⁂ web client"
 description.fr = "Un client web Fediverse ⁂ minimaliste avec opinion"
 
-version = "0.2~ynh1"
+version = "0.2~ynh2"
 
 maintainers = ["ghose"]
 

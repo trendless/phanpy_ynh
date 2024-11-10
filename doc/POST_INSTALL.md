@@ -1,4 +1,4 @@
-This is a dummy disclaimer to display after the install
+## Your Phanpy
 
 The app url is <https://__DOMAIN____PATH__>
 

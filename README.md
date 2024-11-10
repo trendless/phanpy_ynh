@@ -14,6 +14,6 @@ This app runs in the visitor's browser, no data is managed in/from your server.
 
 ## Testing version
 
-`sudo yunohost app install https://github.com/xmgz/phanpy_ynh/tree/testing --debug`
+`sudo yunohost app install https://github.com/YunoHost-Apps/phanpy_ynh/tree/testing --debug`
 
-`sudo yunohost app upgrade -u https://github.com/xmgz/phanpy_ynh/tree/testing --debug`
+`sudo yunohost app upgrade -u https://github.com/YunoHost-Apps/phanpy_ynh/tree/testing --debug`

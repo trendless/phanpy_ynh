@@ -55,6 +55,7 @@ arbitrary-limitations.en = "(Optional) In-line translations feature depends on 3
         sha256 = "2153f1ea7214f2c200e4aa081eb1351082ff59b7d9a92a73252d5fcbdceee68c"
 
         autoupdate.strategy = "latest_github_release"
+        autoupdate.asset = ".*\\.tar\\.gz"
 
     [resources.system_user]
 

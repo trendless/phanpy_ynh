@@ -5,10 +5,10 @@ packaging_format = 2
 id = "phanpy"
 name = "Phanpy"
 
-description.en = "A minimalistic opinionated Fediverse ⁂ web client"
-description.fr = "Un client web Fediverse ⁂ minimaliste avec opinion"
+description.en = "A minimalistic opinionated Fediverse ⁂  web client"
+description.fr = "Un client Fediverse ⁂  minimaliste et original"
 
-version = "20241015~ynh6"
+version = "20241015~ynh7"
 
 maintainers = ["ghose"]
 
@@ -28,7 +28,7 @@ ldap = "not_relevant"
 sso = "not_relevant"
 disk = "10M"
 ram.build = "50M"
-ram.runtime = "50M"
+ram.runtime = "10M"
 
 [antifeatures]
 arbitrary-limitations.en = "(Optional) In-line translations feature depends on 3rd party services"

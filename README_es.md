@@ -38,7 +38,7 @@ Inline (and live) translation feature connects to <https://lingva.phanpy.social>
 
 
 
-**Versión actual:** 20241015~ynh7
+**Versión actual:** 20241113~ynh1
 
 **Demo:** <https://phanpy.social/>
 ## Documentaciones y recursos

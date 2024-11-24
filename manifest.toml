@@ -8,7 +8,7 @@ name = "Phanpy"
 description.en = "A minimalistic opinionated Fediverse ⁂  web client"
 description.fr = "Un client Fediverse ⁂  minimaliste et original"
 
-version = "20241113~ynh1"
+version = "20241122~ynh1"
 
 maintainers = ["ghose"]
 
@@ -51,8 +51,8 @@ arbitrary-limitations.en = "(Optional) In-line translations feature depends on 3
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/cheeaun/phanpy/releases/download/2024.11.13.5a4082e/phanpy-dist.tar.gz"
-        sha256 = "22e9b7ee8a280e7679964adbe36b5da9dc017b6a7aaa16a1c97c249249d9fcfc"
+        url = "https://github.com/cheeaun/phanpy/releases/download/2024.11.22.8f048af/phanpy-dist.tar.gz"
+        sha256 = "311c8d11202cd377f051c66897ffa398dd5871d2fe78f3db9ee0dea35de66d9d"
 
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset = ".*\\.tar\\.gz"

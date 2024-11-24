@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # Phanpy untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/phanpy.svg)](https://ci-apps.yunohost.org/ci/apps/phanpy/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/phanpy.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/phanpy.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/phanpy)](https://ci-apps.yunohost.org/ci/apps/phanpy/)
+![Status kerja](https://apps.yunohost.org/badge/state/phanpy)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/phanpy)
 
 [![Pasang Phanpy dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=phanpy)
 
@@ -36,9 +38,13 @@ from <https://github.com/cheeaun/phanpy#features>
 
 Inline (and live) translation feature connects to <https://lingva.phanpy.social>. It's optional for the user to activate this feature.
 
+## YNH Forum
+
+Comment *phanpy_ynh* on [YunoHost Forum Topic](https://forum.yunohost.org/t/phanpy-a-minimalistic-opinionated-fediverse-web-client/32095)
 
 
-**Versi terkirim:** 20241113~ynh1
+
+**Versi terkirim:** 20241122~ynh1
 
 **Demo:** <https://phanpy.social/>
 ## Dokumentasi dan sumber daya

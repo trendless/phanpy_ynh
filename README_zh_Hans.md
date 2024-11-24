@@ -5,7 +5,9 @@
 
 # YunoHost 上的 Phanpy
 
-[![集成程度](https://dash.yunohost.org/integration/phanpy.svg)](https://ci-apps.yunohost.org/ci/apps/phanpy/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/phanpy.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/phanpy.maintain.svg)
+[![集成程度](https://apps.yunohost.org/badge/integration/phanpy)](https://ci-apps.yunohost.org/ci/apps/phanpy/)
+![工作状态](https://apps.yunohost.org/badge/state/phanpy)
+![维护状态](https://apps.yunohost.org/badge/maintained/phanpy)
 
 [![使用 YunoHost 安装 Phanpy](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=phanpy)
 
@@ -36,9 +38,13 @@ from <https://github.com/cheeaun/phanpy#features>
 
 Inline (and live) translation feature connects to <https://lingva.phanpy.social>. It's optional for the user to activate this feature.
 
+## YNH Forum
+
+Comment *phanpy_ynh* on [YunoHost Forum Topic](https://forum.yunohost.org/t/phanpy-a-minimalistic-opinionated-fediverse-web-client/32095)
 
 
-**分发版本：** 20241113~ynh1
+
+**分发版本：** 20241122~ynh1
 
 **演示：** <https://phanpy.social/>
 ## 文档与资源

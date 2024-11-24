@@ -5,7 +5,9 @@ Il NE doit PAS être modifié à la main.
 
 # Phanpy pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/phanpy.svg)](https://ci-apps.yunohost.org/ci/apps/phanpy/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/phanpy.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/phanpy.maintain.svg)
+[![Niveau d’intégration](https://apps.yunohost.org/badge/integration/phanpy)](https://ci-apps.yunohost.org/ci/apps/phanpy/)
+![Statut du fonctionnement](https://apps.yunohost.org/badge/state/phanpy)
+![Statut de maintenance](https://apps.yunohost.org/badge/maintained/phanpy)
 
 [![Installer Phanpy avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=phanpy)
 
@@ -36,9 +38,13 @@ from <https://github.com/cheeaun/phanpy#features>
 
 Inline (and live) translation feature connects to <https://lingva.phanpy.social>. It's optional for the user to activate this feature.
 
+## YNH Forum
+
+Comment *phanpy_ynh* on [YunoHost Forum Topic](https://forum.yunohost.org/t/phanpy-a-minimalistic-opinionated-fediverse-web-client/32095)
 
 
-**Version incluse :** 20241113~ynh1
+
+**Version incluse :** 20241122~ynh1
 
 **Démo :** <https://phanpy.social/>
 ## Documentations et ressources

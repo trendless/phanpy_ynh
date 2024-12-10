@@ -44,7 +44,7 @@ Comment *phanpy_ynh* on [YunoHost Forum Topic](https://forum.yunohost.org/t/phan
 
 
 
-**Paketatutako bertsioa:** 20241122~ynh1
+**Paketatutako bertsioa:** 20241208~ynh1
 
 **Demoa:** <https://phanpy.social/>
 ## Dokumentazioa eta baliabideak

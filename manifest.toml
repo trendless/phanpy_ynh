@@ -51,7 +51,7 @@ arbitrary-limitations.en = "(Optional) In-line translations feature depends on 3
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/YunoHost-Apps/phanpy_ynh/blob/testing/ynh-release/phanpy.tar.gz"
+        url = "https://github.com/YunoHost-Apps/phanpy_ynh/raw/refs/heads/testing/ynh-release/phanpy.tar.gz"
         sha256 = "544857d2dda2e2756c9233933354f1e3601c1a79363c723b622d1c7158cfbbdc"
 
         autoupdate.strategy = "latest_github_release"

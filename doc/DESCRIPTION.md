@@ -1,4 +1,12 @@
-This Phanpy YunoHost App is packaged directly from upstream Release package.
+This Phanpy YunoHost App is built from uptream Phanpy stable branch source.
+
+## Difference
+
+built with custom `.env`
+
+* retire references to `phanpy.social` website
+* change app name to «Phanpy for YunoHost»
+* custom Privacy Policy
 
 ## Features
 

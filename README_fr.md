@@ -18,7 +18,15 @@ Il NE doit PAS être modifié à la main.
 
 ## Vue d’ensemble
 
-This Phanpy YunoHost App is packaged directly from upstream Release package.
+This Phanpy YunoHost App is built from uptream Phanpy stable branch source.
+
+## Difference
+
+built with custom `.env`
+
+* retire references to `phanpy.social` website
+* change app name to «Phanpy for YunoHost»
+* custom Privacy Policy
 
 ## Features
 
@@ -44,7 +52,7 @@ Comment *phanpy_ynh* on [YunoHost Forum Topic](https://forum.yunohost.org/t/phan
 
 
 
-**Version incluse :** 20241208~ynh1
+**Version incluse :** 20241208~ynh2
 
 **Démo :** <https://phanpy.social/>
 ## Documentations et ressources

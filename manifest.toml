@@ -16,7 +16,6 @@ maintainers = ["ghose"]
 license = "MIT"
 website = "https://phanpy.social/"
 demo = "https://phanpy.social/"
-
 code = "https://github.com/cheeaun/phanpy"
 
 [integration]

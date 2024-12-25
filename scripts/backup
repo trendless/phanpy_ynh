@@ -1,5 +1,4 @@
 #!/bin/bash
-#### App file generated with YoloGen, the YunoHost app generator, version .
 
 source ../settings/scripts/_common.sh
 source /usr/share/yunohost/helpers
@@ -24,7 +23,7 @@ ynh_backup "/etc/logrotate.d/$app"
 # BACKUP VARIOUS FILES
 #=================================================
 
-ynh_backup "/var/log/$app/" # TODO: add an option to specify log file
+ynh_backup "/var/log/$app/"
 
 #=================================================
 # END OF SCRIPT

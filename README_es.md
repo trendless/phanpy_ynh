@@ -20,7 +20,7 @@ No se debe editar a mano.
 
 **Phanpy YunoHost App** is built from upstream Phanpy stable branch source.
 
-**Phanpy** is an alternative frontend for Mastodon or Gotosocial servers which are alternatives X.
+**Phanpy** is an alternative frontend for Mastodon or Gotosocial servers which are alternatives to X (twitter).
 
 
 ## Diferences from source

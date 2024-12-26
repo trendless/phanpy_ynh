@@ -19,6 +19,8 @@ Nie powinno być ono edytowane ręcznie.
 ## Przegląd
 
 This Phanpy YunoHost App is built from uptream Phanpy stable branch source.
+Phanpy is ans alternative frontend for Mastodon or Gotosocial servers which are alternatives to twitter or X.
+
 
 ## Difference
 

@@ -1,21 +1,14 @@
 #!/bin/bash
-### App file generated with YoloGen, the YunoHost app generator, version .
 
 source _common.sh
 source /usr/share/yunohost/helpers
-
-#=================================================
-# ENSURE DOWNWARD COMPATIBILITY
-#=================================================
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
 ynh_script_progression --message="Upgrading source files..."
 
-ynh_setup_source --dest_dir="$install_dir" --full_replace --keep=""
-
-chown -R $app:www-data "$install_dir"
+ynh_setup_source --dest_dir="$install_dir" --full_replace
 
 #=================================================
 # REAPPLY SYSTEM CONFIGURATIONS

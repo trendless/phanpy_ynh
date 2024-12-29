@@ -5,10 +5,10 @@ packaging_format = 2
 id = "phanpy"
 name = "Phanpy"
 
-description.en = "A minimalistic opinionated Fediverse ⁂  web client"
-description.fr = "Un client Fediverse ⁂  minimaliste et original"
+description.en = "Minimalistic opinionated Fediverse ⁂ web client"
+description.fr = "Client Fediverse ⁂ minimaliste et original"
 
-version = "20241208~ynh1"
+version = "20241228~ynh1"
 
 maintainers = ["ghose"]
 
@@ -16,16 +16,17 @@ maintainers = ["ghose"]
 license = "MIT"
 website = "https://phanpy.social/"
 demo = "https://phanpy.social/"
-
 code = "https://github.com/cheeaun/phanpy"
 
 [integration]
-yunohost = '>= 11.2.30'
+yunohost = '>= 12.0.9'
 helpers_version = "2.1"
-architectures = "all" 
+architectures = "all"
 multi_instance = true
-ldap = "not_relevant" 
-sso = "not_relevant"
+
+ldap = false
+sso = false
+
 disk = "15M"
 ram.build = "70M"
 ram.runtime = "10M"
@@ -51,8 +52,8 @@ arbitrary-limitations.en = "(Optional) In-line translations feature depends on 3
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/cheeaun/phanpy/releases/download/2024.12.08.7e1ffc5/phanpy-dist.tar.gz"
-        sha256 = "278f4cf3e21e2797da5b4500baebe95cc2a7ab1a6c3e3b4ba103865649087d4f"
+        url = "https://github.com/YunoHost-Apps/phanpy_ynh/raw/refs/heads/testing/ynh-release/phanpy.tar.gz"
+        sha256 = "2ef2d227e0349f904893523ccb30ffa7098e9127ef43b8fc1b3408e47ac52be7"
 
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset = ".*\\.tar\\.gz"
@@ -60,6 +61,7 @@ arbitrary-limitations.en = "(Optional) In-line translations feature depends on 3
     [resources.system_user]
 
     [resources.install_dir]
+    group = "www-data:r-x"
 
     [resources.permissions]
     main.url = "/"

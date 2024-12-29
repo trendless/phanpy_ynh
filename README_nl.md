@@ -55,8 +55,8 @@ Inline (and live) translation feature connects to <https://lingva.phanpy.social>
 Comment *phanpy_ynh* on [YunoHost Forum Topic](https://forum.yunohost.org/t/phanpy-a-minimalistic-opinionated-fediverse-web-client/32095)
 
 
-
 **Geleverde versie:** 20241228~ynh1
+
 
 **Demo:** <https://phanpy.social/>
 ## Documentatie en bronnen

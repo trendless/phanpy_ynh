@@ -18,7 +18,7 @@ EZ editatu eskuz.
 
 ## Aurreikuspena
 
-**Phanpy YunoHost App** is built from upstream Phanpy stable branch source.
+**Phanpy YunoHost App** is built from upstream Phanpy `production` branch.
 
 **Phanpy** is an alternative frontend for Mastodon or Gotosocial servers which are alternatives to X (twitter).
 
@@ -29,7 +29,8 @@ built with custom `.env`
 
 * remove references to `phanpy.social` website
 * change app name to «Phanpy for YunoHost»
-* custom Privacy Policy (in this repo)
+* custom Privacy Policy ([in this repo](https://github.com/YunoHost-Apps/phanpy_ynh/blob/master/PRIVACY.md))
+* default language *null* (browser's default)
 
 ## Features
 
@@ -55,7 +56,7 @@ Comment *phanpy_ynh* on [YunoHost Forum Topic](https://forum.yunohost.org/t/phan
 
 
 
-**Paketatutako bertsioa:** 20241208~ynh3
+**Paketatutako bertsioa:** 20241228~ynh1
 
 **Demoa:** <https://phanpy.social/>
 ## Dokumentazioa eta baliabideak

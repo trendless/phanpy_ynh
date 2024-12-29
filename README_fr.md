@@ -58,8 +58,6 @@ Comment *phanpy_ynh* on [YunoHost Forum Topic](https://forum.yunohost.org/t/phan
 
 **Version incluse :** 20241228~ynh1
 
-
-
 **Démo :** <https://phanpy.social/>
 ## Documentations et ressources
 

@@ -56,9 +56,10 @@ Comment *phanpy_ynh* on [YunoHost Forum Topic](https://forum.yunohost.org/t/phan
 
 
 
-**Shipped version:** 20250126~ynh1
+**Shipped version:** 20250126~ynh1 [Changelog](https://github.com/cheeaun/phanpy/compare/2024.12.28.119d4b0...2025.01.26.24f03f5)
 
 **Demo:** <https://phanpy.social/>
+
 ## Documentation and resources
 
 - Official app website: <https://phanpy.social/>

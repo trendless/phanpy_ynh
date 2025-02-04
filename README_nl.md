@@ -56,7 +56,7 @@ Comment *phanpy_ynh* on [YunoHost Forum Topic](https://forum.yunohost.org/t/phan
 
 
 
-**Geleverde versie:** 20241228~ynh1
+**Geleverde versie:** 20250126~ynh1
 
 **Demo:** <https://phanpy.social/>
 ## Documentatie en bronnen

@@ -33,7 +33,7 @@ ram.build = "70M"
 ram.runtime = "10M"
 
 [antifeatures]
-arbitrary-limitations.en = "(Optional) In-line translations feature depends on 3rd party services"
+arbitrary-limitations.en = "(Optional) In-line translations feature depends on 3rd party services: Lingva API, a frontend for Google Translate hosted on phanpy.social."
 
 [install]
 

@@ -22,7 +22,7 @@
 
 This YunoHost app is built from upstream Phanpy `production` branch.
 
-## Differences from source
+### Differences from source
 
 built with custom `.env`
 
@@ -31,7 +31,7 @@ built with custom `.env`
 * custom Privacy Policy ([in this repo](https://github.com/YunoHost-Apps/phanpy_ynh/blob/master/PRIVACY.md))
 * default language *null* (browser's default)
 
-## Features
+### Features
 
 * 👪 Multiple accounts
 * 🪟 Compose window pop-out/in
@@ -45,7 +45,7 @@ built with custom `.env`
 
 from <https://github.com/cheeaun/phanpy#features>
 
-## Third-party services
+### Third-party services
 
 Inline (and live) translation feature connects to <https://lingva.phanpy.social>. It's optional for the **user** to activate this feature.
 

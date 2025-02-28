@@ -18,12 +18,11 @@ Ini TIDAK boleh diedit dengan tangan.
 
 ## Ringkasan
 
-**Phanpy YunoHost App** is built from upstream Phanpy `production` branch.
-
 **Phanpy** is an alternative frontend for Mastodon or Gotosocial servers which are alternatives to X (twitter).
 
+This YunoHost app is built from upstream Phanpy `production` branch.
 
-## Diferences from source
+## Differences from source
 
 built with custom `.env`
 
@@ -34,15 +33,15 @@ built with custom `.env`
 
 ## Features
 
-    👪 Multiple accounts
-    🪟 Compose window pop-out/in
-    🌗 Light/dark/auto theme
-    🔔 Grouped notifications
-    🪺 Nested comments thread
-    📬 Unsent draft recovery
-    🎠 Boosts Carousel™️
-    ⚡ Shortcuts™️ with view modes like multi-column or tab bar
-    #️⃣ Multi-hashtag timeline
+* 👪 Multiple accounts
+* 🪟 Compose window pop-out/in
+* 🌗 Light/dark/auto theme
+* 🔔 Grouped notifications
+* 🪺 Nested comments thread
+* 📬 Unsent draft recovery
+* 🎠 Boosts Carousel™️
+* ⚡ Shortcuts™️ with view modes like multi-column or tab bar
+* #️⃣ Multi-hashtag timeline
 
 from <https://github.com/cheeaun/phanpy#features>
 

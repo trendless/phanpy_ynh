@@ -27,7 +27,7 @@ from <https://github.com/cheeaun/phanpy#features>
 
 ### Third-party services
 
-Inline (and live) translation feature connects to <https://lingva.phanpy.social>. It's optional for the **user** to activate this feature.
+Inline (and live) translation feature connects to <https://translating.phanpy.social>. It's optional for the **user** to activate this feature.
 
 ## YNH Forum
 

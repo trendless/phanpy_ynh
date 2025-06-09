@@ -9,7 +9,7 @@ description.en = "Minimalistic opinionated Fediverse ⁂ web client"
 description.fr = "Client Fediverse ⁂ minimaliste et original"
 description.es = "Cliente para el Fediverso ⁂ minimalista y original"
 
-version = "20250427~ynh1"
+version = "20250608~ynh1"
 
 maintainers = ["ghose"]
 
@@ -54,7 +54,7 @@ arbitrary-limitations.en = "(Optional) In-line translations feature depends on 3
 
         [resources.sources.main]
         url = "https://github.com/YunoHost-Apps/phanpy_ynh/raw/refs/heads/testing/ynh-release/phanpy.tar.gz"
-        sha256 = "c961f335adb5f90e273a3d18547043ae8abf7ec65e9e114f692e86df4f498624"
+        sha256 = "069f21c9b6e815650e0e5f7d0fb324bdcea59e981e5a9e03ed308a25125a2f36"
 
         autoupdate.strategy = "latest_github_release"
         autoupdate.asset = ".*\\.tar\\.gz"

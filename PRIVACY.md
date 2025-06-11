@@ -8,7 +8,7 @@ Phanpy_ynh is hosted in a YunoHost server as a static website. Read server's Pri
 
 ## Translations
 
-Phanpy uses [Lingva API](https://github.com/cheeaun/lingva-api) and [Lingva Translate](https://github.com/thedaviddelta/lingva-translate) as fallbacks for translating post content, profile bio and media description.
+Phanpy uses [Translang API](https://github.com/cheeaun/translang-api) for translating post content, profile bio and media description.
 
 
 ## Analytics

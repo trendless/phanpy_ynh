@@ -9,7 +9,7 @@ description.en = "Minimalistic opinionated Fediverse ⁂ web client"
 description.fr = "Client Fediverse ⁂ minimaliste et original"
 description.es = "Cliente para el Fediverso ⁂ minimalista y original"
 
-version = "20250608~ynh1"
+version = "20250608~ynh2"
 
 maintainers = ["ghose"]
 
@@ -33,7 +33,7 @@ ram.build = "70M"
 ram.runtime = "10M"
 
 [antifeatures]
-arbitrary-limitations.en = "(Optional) In-line translations feature depends on 3rd party services hosted on translating.phanpy.social."
+arbitrary-limitations.en = "(Optional) In-line translations feature depends on 3rd party services hosted on translang.phanpy.social."
 
 [install]
 

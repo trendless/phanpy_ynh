@@ -29,8 +29,8 @@ ldap = false
 sso = false
 
 disk = "350M"
-ram.build = "500M"
-ram.runtime = "50M"
+ram.build = "1G"
+ram.runtime = "100M"
 
 [antifeatures]
 arbitrary-limitations.en = "(Optional) In-line translations feature depends on 3rd party services hosted on translang.phanpy.social."

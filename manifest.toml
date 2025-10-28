@@ -58,14 +58,14 @@ arbitrary-limitations.en = "(Optional) In-line translations feature depends on 3
     ask.en = "Default instance for log-in"
     help.en = "When logging in, the user will be redirected instantly to this instance's authentication page instead of having to type it in"
     type = "string"
-    example = "mastodon.social"
+    example = "e.g., mastodon.social"
     optional = true
 
     [install.phanpy_default_instance_registration_url]
     ask.en = "URL of the instance registration page"
     help.en = "When signing up, the user will be directed to this instance's sign up page"
     type = "string"
-    example = "https://mastodon.social/auth/sign_up"
+    example = "e.g., https://mastodon.social/auth/sign_up"
     optional = true
 
     [install.phanpy_privacy_policy_url]

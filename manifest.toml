@@ -93,14 +93,14 @@ arbitrary-limitations.en = "(Optional) In-line translations feature depends on 3
     default = "translang.phanpy.social"
 
     [install.phanpy_img_alt_api_url]
-    ask.en = "API endpoint for self-hosted instance of img-alt-api (https://github.com/cheeaun/img-alt-api)"
-    help.en = "If provided, a setting will appear for users to enable the image description generator in the composer"
+    ask.en = "API endpoint for self-hosted instance of img-alt-api "
+    help.en = "https://github.com/cheeaun/img-alt-api; If provided, a setting will appear for users to enable the image description generator in the composer"
     type = "string"
     optional = true
 
     [install.phanpy_giphy_api_key]
-    ask.en = "API key for GIPHY (https://developers.giphy.com) -- see API docs (https://developers.giphy.com/docs/api)"
-    help.en = "If provided, a setting will appear for users to enable the GIF picker in the composer"
+    ask.en = "API key for GIPHY"
+    help.en = "https://developers.giphy.com; see API docs https://developers.giphy.com/docs/api; If provided, a setting will appear for users to enable the GIF picker in the composer"
     type = "string"
     optional = true
 

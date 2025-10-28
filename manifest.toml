@@ -9,7 +9,7 @@ description.en = "Minimalistic opinionated Fediverse ⁂ web client"
 description.fr = "Client Fediverse ⁂ minimaliste et original"
 description.es = "Cliente para el Fediverso ⁂ minimalista y original"
 
-version = "20251009~ynh1"
+version = "2025.10.09.1897f38~ynh1"
 
 maintainers = ["ghose"]
 
@@ -28,9 +28,9 @@ multi_instance = true
 ldap = false
 sso = false
 
-disk = "15M"
-ram.build = "70M"
-ram.runtime = "10M"
+disk = "350M"
+ram.build = "500M"
+ram.runtime = "50M"
 
 [antifeatures]
 arbitrary-limitations.en = "(Optional) In-line translations feature depends on 3rd party services hosted on translang.phanpy.social."
@@ -48,16 +48,79 @@ arbitrary-limitations.en = "(Optional) In-line translations feature depends on 3
     type = "group"
     default = "visitors"
 
+    [install.phanpy_client_name]
+    ask.en = "Phanpy Client Name"
+    help.en = "Webpage/PWA/Card title, client name when registering with token, shown on post (if settings permit)"
+    type = "string"
+    default = "Phanpy"
+
+    [install.phanpy_default_instance]
+    ask.en = "Default instance for log-in"
+    help.en = "When logging in, the user will be redirected instantly to this instance's authentication page instead of having to type it in"
+    type = "string"
+    example = "mastodon.social"
+    optional = true
+
+    [install.phanpy_default_instance_registration_url]
+    ask.en = "URL of the instance registration page"
+    help.en = "When signing up, the user will be directed to this instance's sign up page"
+    type = "string"
+    example = "https://mastodon.social/auth/sign_up"
+    optional = true
+
+    [install.phanpy_privacy_policy_url]
+    ask.en = "URL of the privacy policy page"
+    help.en = "The applicable privacy policy"
+    type = "string"
+    default = "https://github.com/cheeaun/phanpy/blob/main/PRIVACY.MD"
+
+    [install.phanpy_default_lang]
+    ask.en = "Default language"
+    type = "string"
+    default = "en"
+
+    [install.phanpy_referrer_policy]
+    ask.en = "Referrer policy for the site"
+    help.en = "See MDN: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy -- this is applied with the <meta> tag on the client-side"
+    type = "select"
+    choices = ["no-referrer", "no-referrer-when-downgrade", "origin", "origin-when-cross-origin", "same-origin", "strict-origin", "strict-origin-when-cross-origin"]
+    default = "origin"
+
+    [install.phanpy_translang_instances]
+    ask.en = "Translang instance(s) for translations"
+    help.en = "Specify a space-separated list of instances; first will be used as default before falling back to the subsequent instances -- may specify a self-hosted Translating instance, powered by translang-api (https://github.com/cheeaun/translang-api)"
+    type = "string"
+    default = "translang.phanpy.social"
+
+    [install.phanpy_img_alt_api_url]
+    ask.en = "API endpoint for self-hosted instance of img-alt-api (https://github.com/cheeaun/img-alt-api)"
+    help.en = "If provided, a setting will appear for users to enable the image description generator in the composer"
+    type = "string"
+    optional = true
+
+    [install.phanpy_giphy_api_key]
+    ask.en = "API key for GIPHY (https://developers.giphy.com) -- see API docs (https://developers.giphy.com/docs/api)"
+    help.en = "If provided, a setting will appear for users to enable the GIF picker in the composer"
+    type = "string"
+    optional = true
+
+    [install.phanpy_disallow_robots]
+    ask.en = "Override the robots.txt file and disallow all web crawlers from indexing the site?"
+    help.en = "Leave empty to allow crawling/indexing"
+    type = "string"
+    default = "true"
+    optional = true
+
+
 [resources]
 
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/YunoHost-Apps/phanpy_ynh/raw/refs/heads/testing/ynh-release/phanpy.tar.gz"
-        sha256 = "260e47278a250f8b9af224b6e545391d9b649cbf3d3412f4a6e3c1845d80e387"
-
+        url = "https://github.com/cheeaun/phanpy/archive/refs/tags/2025.10.09.1897f38.tar.gz"
+        sha256 = "be78cbba4ac3528c49b8ce21388582eb5bb02b461af183bcca91e53ca3da6a95"
+        autoupdate.upstream = "https://github.com/cheeaun/phanpy"
         autoupdate.strategy = "latest_github_release"
-        autoupdate.asset = ".*\\.tar\\.gz"
 
     [resources.system_user]
 
@@ -66,3 +129,6 @@ arbitrary-limitations.en = "(Optional) In-line translations feature depends on 3
 
     [resources.permissions]
     main.url = "/"
+
+    [resources.nodejs]
+    version = "20"

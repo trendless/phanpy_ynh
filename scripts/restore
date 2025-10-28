@@ -26,9 +26,9 @@ ynh_restore "/etc/logrotate.d/$app"
 ynh_restore "/var/log/$app/"
 
 #=================================================
-# RELOAD NGINX AND PHP-FPM OR THE APP SERVICE
+# RELOAD NGINX
 #=================================================
-ynh_script_progression "Reloading NGINX web server and $app's service..."
+ynh_script_progression "Reloading NGINX web server"
 
 ynh_systemctl --service=nginx --action=reload
 

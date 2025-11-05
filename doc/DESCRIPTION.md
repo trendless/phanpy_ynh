@@ -1,15 +1,10 @@
 **Phanpy** is an alternative frontend for Mastodon or Gotosocial servers which are alternatives to X (twitter).
 
-This YunoHost app is built from upstream Phanpy `production` branch.
+This YunoHost app is built locally in your server from latest upstream release.
 
-### Differences from source
+### Customized .env
 
-built with custom `.env`
-
-* remove references to `phanpy.social` website
-* change app name to «Phanpy for YunoHost»
-* custom Privacy Policy ([in this repo](https://github.com/YunoHost-Apps/phanpy_ynh/blob/master/PRIVACY.md))
-* default language *null*
+on install you'll be asked some questions about phanpy environment variables. You can safely use default values in case you do not understand or don't want to use them.
 
 ### Features
 
@@ -27,7 +22,7 @@ from <https://github.com/cheeaun/phanpy#features>
 
 ### Third-party services
 
-Inline (and live) translation feature connects to <https://translang.phanpy.social>. It's optional for the **user** to activate this feature.
+Inline (and live) translation feature connects to <https://translang.phanpy.social>. It's optional for the **user** to activate this feature and can be changed to a diferent instance at install time
 
 ## YNH Forum
 

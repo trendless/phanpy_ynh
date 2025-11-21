@@ -8,7 +8,16 @@ source /usr/share/yunohost/helpers
 #=================================================
 ynh_script_progression "Setting up source files..."
 
-ynh_setup_source --dest_dir="$install_dir"
+ynh_setup_source --dest_dir="$install_dir/.build"
+
+chown -R "$app:$app" "$install_dir/.build"
+
+#=================================================
+# APP ENV
+#=================================================
+ynh_script_progression "Adding $app's env file..."
+
+ynh_config_add --template=".env" --destination="$install_dir/.build/.env"
 
 #=================================================
 # SYSTEM CONFIGURATION
@@ -18,6 +27,22 @@ ynh_script_progression "Adding system configurations related to $app..."
 ynh_config_add_nginx
 
 ynh_config_add_logrotate
+
+#=================================================
+# NPM INSTALL & BUILD
+#=================================================
+ynh_script_progression "Building $app..."
+
+pushd "$install_dir/.build"
+    ynh_hide_warnings ynh_exec_as_app npm install
+    ynh_hide_warnings ynh_exec_as_app npm run build
+popd
+
+mv $install_dir/.build/dist/* $install_dir/
+ynh_safe_rm "$install_dir/.build"
+ynh_safe_rm "$install_dir/.npm"
+chmod -R o-rwx "$install_dir"
+chown -R "$app:www-data" "$install_dir"
 
 #=================================================
 # END OF SCRIPT

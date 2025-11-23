@@ -6,18 +6,21 @@ source /usr/share/yunohost/helpers
 #=================================================
 # ENSURE DOWNWARD COMPATIBILITY
 #=================================================
-ynh_script_progression "Ensuring downward compatibility..."
 
-ynh_app_setting_set_default --key=PHANPY_CLIENT_NAME --value="Phanpy"
-ynh_app_setting_set_default --key=PHANPY_DEFAULT_INSTANCE --value=""
-ynh_app_setting_set_default --key=PHANPY_DEFAULT_INSTANCE_REGISTRATION_URL --value=""
-ynh_app_setting_set_default --key=PHANPY_PRIVACY_POLICY_URL --value="https://github.com/cheeaun/phanpy/blob/main/PRIVACY.MD"
-ynh_app_setting_set_default --key=PHANPY_DEFAULT_LANG --value="en"
-ynh_app_setting_set_default --key=PHANPY_REFERRER_POLICY --value="origin"
-ynh_app_setting_set_default --key=PHANPY_TRANSLANG_INSTANCES --value="translang.phanpy.social"
-ynh_app_setting_set_default --key=PHANPY_IMG_ALT_API_URL --value=""
-ynh_app_setting_set_default --key=PHANPY_GIPHY_API_KEY --value=""
-ynh_app_setting_set_default --key=PHANPY_DISALLOW_ROBOTS --value="true"
+if ynh_app_upgrading_from_version_before_or_equal_to 20251009~ynh1; then
+	ynh_script_progression "Ensuring downward compatibility..."
+
+	ynh_app_setting_set_default --key=phanpy_client_name --value="Phanpy"
+	ynh_app_setting_set_default --key=phanpy_default_instance --value=""
+	ynh_app_setting_set_default --key=phanpy_default_instance_registration_url --value=""
+	ynh_app_setting_set_default --key=phanpy_privacy_policy_url --value="https://github.com/cheeaun/phanpy/blob/main/PRIVACY.MD"
+	ynh_app_setting_set_default --key=phanpy_default_lang --value="en"
+	ynh_app_setting_set_default --key=phanpy_referrer_policy --value="origin"
+	ynh_app_setting_set_default --key=phanpy_translang_instances --value="translang.phanpy.social"
+	ynh_app_setting_set_default --key=phanpy_img_alt_api_url --value=""
+	ynh_app_setting_set_default --key=phanpy_giphy_api_key --value=""
+	ynh_app_setting_set_default --key=phanpy_disallow_robots --value="true"
+fi
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE

@@ -3,6 +3,57 @@
 source _common.sh
 source /usr/share/yunohost/helpers
 
+phanpy_client_name=$(ynh_app_setting_get --key=PHANPY_CLIENT_NAME)
+phanpy_default_instance=$(ynh_app_setting_get --key=PHANPY_DEFAULT_INSTANCE)
+phanpy_default_instance_registration_url=$(ynh_app_setting_get --key=PHANPY_DEFAULT_INSTANCE_REGISTRATION_URL)
+phanpy_privacy_policy_url=$(ynh_app_setting_get --key=PHANPY_PRIVACY_POLICY_URL)
+phanpy_default_lang=$(ynh_app_setting_get --key=PHANPY_DEFAULT_LANG)
+phanpy_referrer_policy=$(ynh_app_setting_get --key=PHANPY_REFERRER_POLICY)
+phanpy_translang_instances=$(ynh_app_setting_get --key=PHANPY_TRANSLANG_INSTANCES)
+phanpy_img_alt_api_url=$(ynh_app_setting_get --key=PHANPY_IMG_ALT_API_URL)
+phanpy_giphy_api_key=$(ynh_app_setting_get --key=PHANPY_GIPHY_API_KEY)
+phanpy_disallow_robots=$(ynh_app_setting_get --key=PHANPY_DISALLOW_ROBOTS)
+
+if [ -z "$phanpy_client_name" ]; then
+    ynh_app_setting_set --key=PHANPY_CLIENT_NAME --value="Phanpy"
+fi
+
+if [ -z "$phanpy_default_instance" ]; then
+    ynh_app_setting_set --key=PHANPY_DEFAULT_INSTANCE --value=""
+fi
+
+if [ -z "$phanpy_default_instance_registration_url" ]; then
+    ynh_app_setting_set --key=PHANPY_DEFAULT_INSTANCE_REGISTRATION_URL --value=""
+fi
+
+if [ -z "$phanpy_privacy_policy_url" ]; then
+    ynh_app_setting_set --key=PHANPY_PRIVACY_POLICY_URL --value="https://github.com/cheeaun/phanpy/blob/main/PRIVACY.MD"
+fi
+
+if [ -z "$phanpy_default_lang" ]; then
+    ynh_app_setting_set --key=PHANPY_DEFAULT_LANG --value="en"
+fi
+
+if [ -z "$phanpy_referrer_policy" ]; then
+    ynh_app_setting_set --key=PHANPY_REFERRER_POLICY --value="origin"
+fi
+
+if [ -z "$phanpy_translang_instances" ]; then
+    ynh_app_setting_set --key=PHANPY_TRANSLANG_INSTANCES --value="translang.phanpy.social"
+fi
+
+if [ -z "$phanpy_img_alt_api_url" ]; then
+    ynh_app_setting_set --key=PHANPY_IMG_ALT_API_URL --value=""
+fi
+
+if [ -z "$phanpy_giphy_api_key" ]; then
+    ynh_app_setting_set --key=PHANPY_GIPHY_API_KEY --value=""
+fi
+
+if [ -z "$phanpy_disallow_robots" ]; then
+    ynh_app_setting_set --key=PHANPY_DISALLOW_ROBOTS --value="true"
+fi
+
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================

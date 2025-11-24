@@ -26,7 +26,7 @@ fi
 #=================================================
 ynh_script_progression "Upgrading source files..."
 
-ynh_setup_source --dest_dir="$install_dir" --full_replace --keep=".env"
+ynh_setup_source --dest_dir="$install_dir" --full_replace
 
 mkdir "$install_dir/.build"
 mv $install_dir/* "$install_dir/.build"
@@ -39,9 +39,9 @@ chown -R "$app:$app" "$install_dir/.build"
 #=================================================
 # APP ENV
 #=================================================
-#ynh_script_progression "Adding $app's env file..."
+ynh_script_progression "Adding $app's env file..."
 
-#ynh_config_add --template=".env" --destination="$install_dir/.build/.env"
+ynh_config_add --template=".env" --destination="$install_dir/.build/.env"
 
 #=================================================
 # REAPPLY SYSTEM CONFIGURATIONS

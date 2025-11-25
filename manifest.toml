@@ -9,7 +9,7 @@ description.en = "Minimalistic opinionated Fediverse ⁂ web client"
 description.fr = "Client Fediverse ⁂ minimaliste et original"
 description.es = "Cliente para el Fediverso ⁂ minimalista y original"
 
-version = "20251108~ynh3"
+version = "20251108~ynh4"
 
 maintainers = ["xmgz", "trendless"]
 
@@ -20,7 +20,7 @@ demo = "https://phanpy.social/"
 code = "https://github.com/cheeaun/phanpy"
 
 [integration]
-yunohost = '>= 12.0.9'
+yunohost = '>= 12.1.17'
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -110,7 +110,6 @@ arbitrary-limitations.en = "(Optional) In-line translations feature depends on 3
     type = "string"
     default = "true"
     optional = true
-
 
 [resources]
 

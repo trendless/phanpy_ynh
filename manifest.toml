@@ -118,8 +118,8 @@ arbitrary-limitations.en = "(Optional) In-line translations feature depends on 3
         [resources.sources.main]
         url = "https://github.com/cheeaun/phanpy/archive/e350ed9cf9b053fc9c7728e976049202203e6853.tar.gz"
         sha256 = "fa9b157f93d16b96d3603ca02ae59bdc6dedb93562ccc09d8ca11b6a536aaed7"
-        #autoupdate.upstream = "https://github.com/cheeaun/phanpy"
-        #autoupdate.strategy = "latest_github_release"
+        autoupdate.upstream = "https://github.com/cheeaun/phanpy"
+        autoupdate.strategy = "latest_github_commit"
 
     [resources.system_user]
 

@@ -119,7 +119,7 @@ arbitrary-limitations.en = "(Optional) In-line translations feature depends on 3
         url = "https://github.com/cheeaun/phanpy/archive/refs/tags/2026.06.22.d8e5db7.tar.gz"
         sha256 = "7feb4b44f7ccd307ce3acb2de3fb7660ac146cefd8438d6cabbce25caeec6bf6"
         autoupdate.strategy = "latest_github_tag"
-        autoupdate.version_regex = "^(.*)\\..*$
+        autoupdate.version_regex = "^(.*)\\..*$"
 
     [resources.system_user]
 

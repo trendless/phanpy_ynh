@@ -9,7 +9,7 @@ description.en = "Minimalistic opinionated Fediverse ⁂ web client"
 description.fr = "Client Fediverse ⁂ minimaliste et original"
 description.es = "Cliente para el Fediverso ⁂ minimalista y original"
 
-version = "2026.11.06~ynh1"
+version = "2026.11.18~ynh1"
 
 maintainers = ["xmgz", "trendless"]
 
@@ -116,8 +116,8 @@ arbitrary-limitations.en = "(Optional) In-line translations feature depends on 3
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/cheeaun/phanpy/archive/ba405836bcae325a92f5d63a4d90822255da98a8.tar.gz"
-        sha256 = "ad9df8580a163ee05f953a47ca2b354f94d3ce461823d1e20d86072092f94a2d"
+        url = "https://github.com/cheeaun/phanpy/archive/d2fb7c22125f4cbaef2cef310445c84f570dbaae.tar.gz"
+        sha256 = "ca93a79a0be534f34456ca2aed13d062aefdcfa91cd68f3e0767535740997632"
         autoupdate.strategy = "latest_github_commit"
         #autoupdate.version_regex = "^(.*)\\..*$"
 
